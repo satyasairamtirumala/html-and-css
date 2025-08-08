@@ -1,0 +1,63 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title>
+    <link rel="stylesheet"href="styles.css">
+</head>
+<style>
+a{
+    text-decoration: none;
+    color: blue; 
+}
+a:hover {
+    color: green;
+}
+a:active {
+    color: red;
+}
+a:focus {
+    outline: 2px solid orange;
+}
+a:visited {
+    color: purple;
+}
+</style>
+<body>
+    <ul class="todo-list">
+        <li>
+            <input type="checkbox" for="name"id="name">
+            <label for="name">name</label>
+            <ul class="sub-item">
+                <li><a class="sub-item-link"href="https://github.com/satyasairamtirumala"target="_blank">contact</a></li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" for="name"id="name">
+            <label for="name">name</label>
+            <ul class="sub-item">
+                <li><a class="sub-item-link"href="https://github.com/satyasairamtirumala"target="_blank">contact</a></li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" for="name"id="name">
+            <label for="name">name</label>
+            <ul class="sub-item">
+                <li><a class="sub-item-link"href="https://github.com/satyasairamtirumala"target="_blank">contact</a></li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" for="name"id="name">
+            <label for="name">name</label>
+            <ul class="sub-item">
+                <li><a class="sub-item-link"href="https://github.com/satyasairamtirumala"target="_blank">contact</a></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
+</html>
+
