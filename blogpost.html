@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  .blog-post-card{
+  border-radius:50px;
+  background: white;
+  width: 125px;
+  text-align: center;
+}
+.post-content{
+  padding:10px;
+}
+.read-more{
+  color:red;
+  background-color:burlywood;
+  margin:20px;
+  display:inline-block;
+  border-radius:60px;
+  padding:2px;
+  cursor:pointer;
+}
+.read-more:hover{
+  color:black;
+  background-color: lightgrey;
+}
+.post-img{
+  width:100%;
+  border-bottom:6px solid red;
+}
+.post-title, .post-excerpt{
+  color:red;
+}
+
+</style>
+<body>
+    <div class="blog-post-card">
+        <img class="post-img"src="https://cdn.freecodecamp.org/curriculum/labs/cover-photo.jpg"alt="img.jpg">
+        <div class="post-content">
+            <h2 class="post-title">Blog Post Card</h2>
+            <p class="post-excerpt">In this we may have a in-detail information across all sort of things</p>
+            <a class="read-more">Read More</a>
+        </div>
+    </div>
+</body>
+</html>
